@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D951DBE25355AC100A4027F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D951DBD25355AC100A4027F /* AppDelegate.swift */; };
+		3D951DC025355AC100A4027F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D951DBF25355AC100A4027F /* SceneDelegate.swift */; };
+		3D951DC225355AC100A4027F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D951DC125355AC100A4027F /* ViewController.swift */; };
+		3D951DC525355AC100A4027F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D951DC325355AC100A4027F /* Main.storyboard */; };
+		3D951DC725355AC100A4027F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D951DC625355AC100A4027F /* Assets.xcassets */; };
+		3D951DCA25355AC100A4027F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D951DC825355AC100A4027F /* LaunchScreen.storyboard */; };
+		3D951DD525355AC200A4027F /* programmer_floTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D951DD425355AC200A4027F /* programmer_floTests.swift */; };
+		3D951DE025355AC200A4027F /* programmer_floUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D951DDF25355AC200A4027F /* programmer_floUITests.swift */; };
+		7C2222C335945558E1149D68 /* Pods_programmer_flo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7A222261123ED3B2F32340 /* Pods_programmer_flo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D951DD125355AC200A4027F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D951DB225355AC100A4027F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D951DB925355AC100A4027F;
+			remoteInfo = programmer_flo;
+		};
+		3D951DDC25355AC200A4027F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D951DB225355AC100A4027F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D951DB925355AC100A4027F;
+			remoteInfo = programmer_flo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C8D4357EAFB12A49D0561DC /* Pods-programmer_flo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-programmer_flo.release.xcconfig"; path = "Target Support Files/Pods-programmer_flo/Pods-programmer_flo.release.xcconfig"; sourceTree = "<group>"; };
+		3D951DBA25355AC100A4027F /* programmer_flo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = programmer_flo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D951DBD25355AC100A4027F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D951DBF25355AC100A4027F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D951DC125355AC100A4027F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D951DC425355AC100A4027F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D951DC625355AC100A4027F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D951DC925355AC100A4027F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D951DCB25355AC100A4027F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D951DD025355AC200A4027F /* programmer_floTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = programmer_floTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D951DD425355AC200A4027F /* programmer_floTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmer_floTests.swift; sourceTree = "<group>"; };
+		3D951DD625355AC200A4027F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D951DDB25355AC200A4027F /* programmer_floUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = programmer_floUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D951DDF25355AC200A4027F /* programmer_floUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmer_floUITests.swift; sourceTree = "<group>"; };
+		3D951DE125355AC200A4027F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7A222261123ED3B2F32340 /* Pods_programmer_flo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_programmer_flo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93748AECC7ADEB289C09F3F9 /* Pods-programmer_flo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-programmer_flo.debug.xcconfig"; path = "Target Support Files/Pods-programmer_flo/Pods-programmer_flo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D951DB725355AC100A4027F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2222C335945558E1149D68 /* Pods_programmer_flo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D951DCD25355AC200A4027F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D951DD825355AC200A4027F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D951DB125355AC100A4027F = {
+			isa = PBXGroup;
+			children = (
+				3D951DBC25355AC100A4027F /* programmer_flo */,
+				3D951DD325355AC200A4027F /* programmer_floTests */,
+				3D951DDE25355AC200A4027F /* programmer_floUITests */,
+				3D951DBB25355AC100A4027F /* Products */,
+				F1B31F49F1CCE30B57977D91 /* Pods */,
+				BFFC2AF960E3AFE6AD88F031 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D951DBB25355AC100A4027F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D951DBA25355AC100A4027F /* programmer_flo.app */,
+				3D951DD025355AC200A4027F /* programmer_floTests.xctest */,
+				3D951DDB25355AC200A4027F /* programmer_floUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D951DBC25355AC100A4027F /* programmer_flo */ = {
+			isa = PBXGroup;
+			children = (
+				3D951DBD25355AC100A4027F /* AppDelegate.swift */,
+				3D951DBF25355AC100A4027F /* SceneDelegate.swift */,
+				3D951DC125355AC100A4027F /* ViewController.swift */,
+				3D951DC325355AC100A4027F /* Main.storyboard */,
+				3D951DC625355AC100A4027F /* Assets.xcassets */,
+				3D951DC825355AC100A4027F /* LaunchScreen.storyboard */,
+				3D951DCB25355AC100A4027F /* Info.plist */,
+			);
+			path = programmer_flo;
+			sourceTree = "<group>";
+		};
+		3D951DD325355AC200A4027F /* programmer_floTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D951DD425355AC200A4027F /* programmer_floTests.swift */,
+				3D951DD625355AC200A4027F /* Info.plist */,
+			);
+			path = programmer_floTests;
+			sourceTree = "<group>";
+		};
+		3D951DDE25355AC200A4027F /* programmer_floUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D951DDF25355AC200A4027F /* programmer_floUITests.swift */,
+				3D951DE125355AC200A4027F /* Info.plist */,
+			);
+			path = programmer_floUITests;
+			sourceTree = "<group>";
+		};
+		BFFC2AF960E3AFE6AD88F031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C7A222261123ED3B2F32340 /* Pods_programmer_flo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1B31F49F1CCE30B57977D91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93748AECC7ADEB289C09F3F9 /* Pods-programmer_flo.debug.xcconfig */,
+				2C8D4357EAFB12A49D0561DC /* Pods-programmer_flo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D951DB925355AC100A4027F /* programmer_flo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D951DE425355AC200A4027F /* Build configuration list for PBXNativeTarget "programmer_flo" */;
+			buildPhases = (
+				EDF0E8DBB735666F6D4FEC98 /* [CP] Check Pods Manifest.lock */,
+				3D951DB625355AC100A4027F /* Sources */,
+				3D951DB725355AC100A4027F /* Frameworks */,
+				3D951DB825355AC100A4027F /* Resources */,
+				B8B9D9A1BC8C6131FFA187F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = programmer_flo;
+			productName = programmer_flo;
+			productReference = 3D951DBA25355AC100A4027F /* programmer_flo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D951DCF25355AC200A4027F /* programmer_floTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D951DE725355AC200A4027F /* Build configuration list for PBXNativeTarget "programmer_floTests" */;
+			buildPhases = (
+				3D951DCC25355AC200A4027F /* Sources */,
+				3D951DCD25355AC200A4027F /* Frameworks */,
+				3D951DCE25355AC200A4027F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D951DD225355AC200A4027F /* PBXTargetDependency */,
+			);
+			name = programmer_floTests;
+			productName = programmer_floTests;
+			productReference = 3D951DD025355AC200A4027F /* programmer_floTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D951DDA25355AC200A4027F /* programmer_floUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D951DEA25355AC200A4027F /* Build configuration list for PBXNativeTarget "programmer_floUITests" */;
+			buildPhases = (
+				3D951DD725355AC200A4027F /* Sources */,
+				3D951DD825355AC200A4027F /* Frameworks */,
+				3D951DD925355AC200A4027F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D951DDD25355AC200A4027F /* PBXTargetDependency */,
+			);
+			name = programmer_floUITests;
+			productName = programmer_floUITests;
+			productReference = 3D951DDB25355AC200A4027F /* programmer_floUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D951DB225355AC100A4027F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3D951DB925355AC100A4027F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					3D951DCF25355AC200A4027F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3D951DB925355AC100A4027F;
+					};
+					3D951DDA25355AC200A4027F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3D951DB925355AC100A4027F;
+					};
+				};
+			};
+			buildConfigurationList = 3D951DB525355AC100A4027F /* Build configuration list for PBXProject "programmer_flo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D951DB125355AC100A4027F;
+			productRefGroup = 3D951DBB25355AC100A4027F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D951DB925355AC100A4027F /* programmer_flo */,
+				3D951DCF25355AC200A4027F /* programmer_floTests */,
+				3D951DDA25355AC200A4027F /* programmer_floUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D951DB825355AC100A4027F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D951DCA25355AC100A4027F /* LaunchScreen.storyboard in Resources */,
+				3D951DC725355AC100A4027F /* Assets.xcassets in Resources */,
+				3D951DC525355AC100A4027F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D951DCE25355AC200A4027F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D951DD925355AC200A4027F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8B9D9A1BC8C6131FFA187F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-programmer_flo/Pods-programmer_flo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-programmer_flo/Pods-programmer_flo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-programmer_flo/Pods-programmer_flo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF0E8DBB735666F6D4FEC98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-programmer_flo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D951DB625355AC100A4027F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D951DC225355AC100A4027F /* ViewController.swift in Sources */,
+				3D951DBE25355AC100A4027F /* AppDelegate.swift in Sources */,
+				3D951DC025355AC100A4027F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D951DCC25355AC200A4027F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D951DD525355AC200A4027F /* programmer_floTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D951DD725355AC200A4027F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D951DE025355AC200A4027F /* programmer_floUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D951DD225355AC200A4027F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D951DB925355AC100A4027F /* programmer_flo */;
+			targetProxy = 3D951DD125355AC200A4027F /* PBXContainerItemProxy */;
+		};
+		3D951DDD25355AC200A4027F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D951DB925355AC100A4027F /* programmer_flo */;
+			targetProxy = 3D951DDC25355AC200A4027F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D951DC325355AC100A4027F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D951DC425355AC100A4027F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D951DC825355AC100A4027F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D951DC925355AC100A4027F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D951DE225355AC200A4027F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D951DE325355AC200A4027F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D951DE525355AC200A4027F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93748AECC7ADEB289C09F3F9 /* Pods-programmer_flo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = programmer_flo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.programmer-flo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D951DE625355AC200A4027F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8D4357EAFB12A49D0561DC /* Pods-programmer_flo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = programmer_flo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.programmer-flo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D951DE825355AC200A4027F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = programmer_floTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.programmer-floTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/programmer_flo.app/programmer_flo";
+			};
+			name = Debug;
+		};
+		3D951DE925355AC200A4027F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = programmer_floTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.programmer-floTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/programmer_flo.app/programmer_flo";
+			};
+			name = Release;
+		};
+		3D951DEB25355AC200A4027F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = programmer_floUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.programmer-floUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = programmer_flo;
+			};
+			name = Debug;
+		};
+		3D951DEC25355AC200A4027F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = programmer_floUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.programmer-floUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = programmer_flo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D951DB525355AC100A4027F /* Build configuration list for PBXProject "programmer_flo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D951DE225355AC200A4027F /* Debug */,
+				3D951DE325355AC200A4027F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D951DE425355AC200A4027F /* Build configuration list for PBXNativeTarget "programmer_flo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D951DE525355AC200A4027F /* Debug */,
+				3D951DE625355AC200A4027F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D951DE725355AC200A4027F /* Build configuration list for PBXNativeTarget "programmer_floTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D951DE825355AC200A4027F /* Debug */,
+				3D951DE925355AC200A4027F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D951DEA25355AC200A4027F /* Build configuration list for PBXNativeTarget "programmer_floUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D951DEB25355AC200A4027F /* Debug */,
+				3D951DEC25355AC200A4027F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D951DB225355AC100A4027F /* Project object */;
+}
