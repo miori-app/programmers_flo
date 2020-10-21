@@ -27,12 +27,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yn3-XN-o3L">
-                                <rect key="frame" x="20" y="832" width="39" height="30"/>
-                                <state key="normal" title="유사곡">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P3j-pY-fb2">
                                 <rect key="frame" x="77" y="209" width="260" height="260"/>
                                 <constraints>
@@ -47,11 +41,9 @@
                         <constraints>
                             <constraint firstItem="1UK-r3-GfY" firstAttribute="top" secondItem="rCT-RX-ae7" secondAttribute="bottom" constant="20" id="9nn-mw-KnH"/>
                             <constraint firstItem="rCT-RX-ae7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AdA-qQ-OOQ"/>
-                            <constraint firstItem="Yn3-XN-o3L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CWb-yc-coI"/>
                             <constraint firstItem="1UK-r3-GfY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TN9-tj-OTy"/>
                             <constraint firstItem="rCT-RX-ae7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="e8E-81-1YS"/>
                             <constraint firstItem="P3j-pY-fb2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ftU-Ql-AZA"/>
-                            <constraint firstItem="Yn3-XN-o3L" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="obH-D8-LXc"/>
                             <constraint firstItem="P3j-pY-fb2" firstAttribute="top" secondItem="1UK-r3-GfY" secondAttribute="bottom" constant="20" id="sQo-IS-tRK"/>
                         </constraints>
                     </view>
